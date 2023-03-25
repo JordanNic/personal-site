@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# My Personal Website
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -12,9 +12,6 @@ yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
 ## Development Server
@@ -22,6 +19,10 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
+# yarn
+yarn run dev
+
+# npm
 npm run dev
 ```
 
@@ -30,12 +31,20 @@ npm run dev
 Build the application for production:
 
 ```bash
+# yarn
+yarn run build
+
+# npm
 npm run build
 ```
 
 Locally preview production build:
 
 ```bash
+# yarn
+yarn run preview
+
+# npm
 npm run preview
 ```
 
