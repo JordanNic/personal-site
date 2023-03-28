@@ -1,0 +1,29 @@
+/* Typorgraphy */
+h1,
+.h1,
+h2,
+.h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $black;
+}
+
+h3,
+.h3 {
+    margin-top: 0;
+    margin-bottom: .3em;
+    @include font-stack;
+    color: $black;
+}
+
+@mixin h1 {
+    @include display-font-stack;
+}
+
+@mixin p {
+    @include font-stack;
+    @include fontSize;
+    line-height: $line-height;
+    font-weight: $font-weight;
+}

@@ -1,0 +1,53 @@
+// Mixins
+@mixin display-font-stack {
+    font-family: $font-family--heading;
+    font-weight: $font-weight--heading;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5em;
+}
+
+@mixin font-stack {
+    font-family: $font-family--default;
+    font-weight: $font-weight--default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin fontSize {
+    font-size: $font-size;
+    @media only screen and (max-width: $break-small) {
+        font-size: $font-size--small;
+    }
+}
+
+@mixin text--bold {
+    font-weight: 700;
+}
+
+@mixin text--italic {
+    font-style: italic;
+}
+
+@mixin text--underline {
+    text-decoration: underline;
+}
+
+@mixin transition {
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+}
+
+@mixin border-radius ($property) {
+    -webkit-border-radius: $property;
+    -moz-border-radius: $property;
+    border-radius: $property;
+}
+
+@mixin box-shadow ($x, $y, $blur, $spread, $red, $green, $blue, $opacity) {
+    -webkit-box-shadow: $x $y $blur $spread rgba($red, $green, $blue, $opacity);
+    -moz-box-shadow: $x $y $blur $spread rgba($red, $green, $blue, $opacity);
+    box-shadow: $x $y $blur $spread rgba($red, $green, $blue, $opacity);
+}
