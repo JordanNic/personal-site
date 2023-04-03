@@ -1,3 +1,6 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sora:wght@600&display=swap');
+
 /* Base Styling for App */
 
 * {
@@ -16,9 +19,7 @@ body {
     height: auto;
     margin: 0 auto;
     padding: 0 40px;
-
     display: flex;
-    justify-content: center;
     @media only screen and (max-width: $break-small) {
         padding: 0 20px;
     }
