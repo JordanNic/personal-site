@@ -4,7 +4,7 @@
             <div class="nav-content">
                 <div class="nav-content__left">
                     <!-- Main Logo -->
-                    <div class="logo"></div>
+                    <div class="logo logo--black"></div>
                 </div>
                 <div class="nav-content__right">
                     <!-- nav-links -->
@@ -14,13 +14,13 @@
                     </ul>
                     <!-- Social Links -->
                     <div class="social-group">
-                        <a href="" class="social-icons">
+                        <a href="" class="social-icons social-icons--black">
                             <i class="lab la-twitter"></i>
                         </a>
-                        <a href="" class="social-icons">
+                        <a href="" class="social-icons social-icons--black">
                             <i class="lab la-linkedin-in"></i>
                         </a>
-                        <a href="" class="social-icons">
+                        <a href="" class="social-icons social-icons--black">
                             <i class="lab la-github"></i>
                         </a>
                     </div>
