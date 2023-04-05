@@ -15,11 +15,13 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1600px;
     height: auto;
     margin: 0 auto;
     padding: 0 40px;
     display: flex;
+    flex-flow: column;
     @media only screen and (max-width: $break-small) {
         padding: 0 20px;
     }
