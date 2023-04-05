@@ -8,6 +8,8 @@
     border-radius: 25px;
     font-size: 30px;
     @include display-font-stack;
+    background-color: $white;
+    color: $black;
     &::before {
         content: "J";
     }
