@@ -1,0 +1,29 @@
+header, .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 80px;
+    background-color: $black;
+    height: 50vh;
+    &--yellow {
+        background-color: $yellow;
+        height: 100vh;
+        h1, p {
+            color: $black !important;
+        }
+    }
+    h1 {
+        @include display-font-stack;
+        font-size: 48px;
+        line-height: 1.7em;
+        margin-bottom: 0;
+        color: $white;
+    }
+    p {
+        width: 50%;
+        @include font-stack;
+        font-size: 20px;
+        line-height: 1.5;
+        color: $white;
+    }
+}
