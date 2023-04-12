@@ -4,7 +4,9 @@
         <div class="container">
             <div class="nav-content">
                 <div class="nav-content--left">
-                    <div class="logo" :class="{ 'logo--black': logoBlack }"></div>
+                    <NuxtLink to="/" class="logo--link">
+                        <div class="logo" :class="{ 'logo--black': logoBlack }"></div>
+                    </NuxtLink>
                 </div>                
                 <Navigation />
             </div>
