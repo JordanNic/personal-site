@@ -1,17 +1,5 @@
 <!-- This is the Master Header component that will be pulled into most pages -->
 <template>
-    <nav>
-        <div class="container">
-            <div class="nav-content">
-                <div class="nav-content--left">
-                    <NuxtLink to="/" class="logo--link">
-                        <div class="logo" :class="{ 'logo--black': logoBlack }"></div>
-                    </NuxtLink>
-                </div>                
-                <Navigation />
-            </div>
-        </div>
-    </nav>
     <header class="header" :class="{ 'header--yellow': headerYellow }">
         <div class="container">
             <p>{{ tagLine }}</p>
@@ -21,11 +9,14 @@
     </header>
 </template>
 
-<script lang="ts">
+<script lang="ts" allowJS>
 export default {
+    name: "MasterHeader",
     props: {
-        logoBlack: Boolean,
-        headerYellow: Boolean,
+        headerYellow: {
+            type: Boolean,
+            required: true,
+        },
         tagLine: {
             type: String,
             required: false,
@@ -38,6 +29,6 @@ export default {
             type: String,
             required: false,
         },
-    }
+    },
 }
 </script>
