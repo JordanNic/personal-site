@@ -1,0 +1,5 @@
+.post-card {
+    background-color: $light-grey;
+    padding: 16px;
+    @include border-radius(8px);
+}
