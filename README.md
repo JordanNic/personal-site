@@ -20,7 +20,7 @@ Start the development server on http://localhost:3000
 
 ```bash
 # yarn
-yarn run dev
+yarn dev
 
 # npm
 npm run dev
@@ -32,7 +32,7 @@ Build the application for production:
 
 ```bash
 # yarn
-yarn run build
+yarn build
 
 # npm
 npm run build
@@ -42,7 +42,7 @@ Locally preview production build:
 
 ```bash
 # yarn
-yarn run preview
+yarn preview
 
 # npm
 npm run preview
