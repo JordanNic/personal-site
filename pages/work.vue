@@ -1,4 +1,5 @@
 <template>
+    <Navigation v-bind="navigationProps" />
     <MasterHeader v-bind="masterHeadProps" />
     <main class="container">
         <h1>Work page</h1>
@@ -9,6 +10,10 @@
 export default {
     data() {
         return {
+            navigationProps: {
+                logoBlack: false,
+                iconsBlack: false,
+            },
             masterHeadProps: {
                 logoBlack: false,
                 headerYellow: false,
