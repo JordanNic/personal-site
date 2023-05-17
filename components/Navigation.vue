@@ -10,8 +10,8 @@
                 <div class="nav-content--right">
                     <!-- nav-links -->
                     <ul class="nav-links">
-                        <li class="nav-links--items"><NuxtLink to="/">Home</NuxtLink></li>
-                        <li class="nav-links--items"><NuxtLink to="/work">My Work</NuxtLink></li>
+                        <li class="nav-links--items" :class="{ 'nav-links--items__black': blackText }"><NuxtLink to="/">Home</NuxtLink></li>
+                        <li class="nav-links--items" :class="{ 'nav-links--items__black': blackText }"><NuxtLink to="/work">My Work</NuxtLink></li>
                     </ul>
                     <!-- Menu icon with click method -->
                     <div @click="openMobileNav()" id="mobile-menu">
@@ -46,6 +46,10 @@ export default {
             required: true,
         },
         iconsBlack: {
+            type: Boolean,
+            required: true,
+        },
+        blackText: {
             type: Boolean,
             required: true,
         },
