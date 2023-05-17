@@ -23,6 +23,7 @@ export default {
             navigationProps: {
                 logoBlack: true,
                 iconsBlack: true,
+                blackText: true,
             },
             masterHeadProps: {
                 logoBlack: true,
