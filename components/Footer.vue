@@ -4,15 +4,15 @@
             <div class="footer-content">
                 <div class="logo logo--white"></div>
                 <div class="social-group">
-                    <div class="social-icons social-icons--white">
+                    <a href="https://twitter.com/_JordanTN" class="social-icons social-icons--white" target="_blank">
                         <i class="lab la-twitter"></i>
-                    </div>
-                    <div class="social-icons social-icons--white">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jordan-nicholson/" class="social-icons social-icons--white" target="_blank">
                         <i class="lab la-linkedin-in"></i>
-                    </div>
-                    <div class="social-icons social-icons--white">
+                    </a>
+                    <a href="https://github.com/JordanNic" class="social-icons social-icons--white" target="_blank">
                         <i class="lab la-github"></i>
-                    </div>
+                    </a>
                 </div>
                 <p class="footer-content--copyright">
                     Site designs and build by Jordan Nicholson. Copyright 2023
