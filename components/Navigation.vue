@@ -21,13 +21,13 @@
                     </div>
                     <!-- Social Links -->
                     <div class="social-group">
-                        <a href="" class="social-icons" :class="{ 'social-icons--black': iconsBlack }">
+                        <a href="https://twitter.com/_JordanTN" class="social-icons" :class="{ 'social-icons--black': iconsBlack }" target="_blank">
                             <i class="lab la-twitter"></i>
                         </a>
-                        <a href="" class="social-icons" :class="{ 'social-icons--black': iconsBlack }">
+                        <a href="https://www.linkedin.com/in/jordan-nicholson/" class="social-icons" :class="{ 'social-icons--black': iconsBlack }" target="_blank">
                             <i class="lab la-linkedin-in"></i>
                         </a>
-                        <a href="" class="social-icons" :class="{ 'social-icons--black': iconsBlack }">
+                        <a href="https://github.com/JordanNic" class="social-icons" :class="{ 'social-icons--black': iconsBlack }" target="_blank">
                             <i class="lab la-github"></i>
                         </a>
                     </div>
