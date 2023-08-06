@@ -1,6 +1,6 @@
 <template>
     <div class="post-card">
-        <img src="@/assets/images/placeholder-img.png" alt="${imageAlt}" />
+        <img :src="`/img/${imageUrl}`" :alt="`${imageAlt}`" />
         <div class="post-card__content">
             <div class="post-card__content--left">
                 <p class="subtitle">{{ subtitle }}</p>
