@@ -1,5 +1,29 @@
-.post-card {
-    background-color: $light-grey;
-    padding: 16px;
-    @include border-radius(8px);
+.post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    &-card {
+        width: 49%;
+        background-color: $light-grey;
+        padding: 16px;
+        @include border-radius(16px);
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 16px;
+            @include border-radius(8px);
+        }
+        &--subtitle {
+            @include font-stack;
+        }
+        &--heading {
+            @include display-font-stack;
+        }
+        &--button {
+            background-color: $yellow;
+            color: $black;
+        }
+    }
 }
