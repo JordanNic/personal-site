@@ -71,6 +71,9 @@ nav {
         flex-direction: row;
         z-index: 100;
         transition: all 0.2s ease-out;
+        .social-group {
+            display: none;
+        }
     }
 
     #mobile-menu {
