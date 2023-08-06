@@ -1,10 +1,15 @@
 <template>
     <div class="post-card">
         <img src="@/assets/images/placeholder-img.png" alt="${imageAlt}" />
-        <p class="post-card--subtitle">{{ subtitle }}</p>
-        <h2 class="post-card--heading">{{ title }}</h2>
-        <p class="post-card--intro">{{ postIntro }}</p>
-        <button class="post-card--button">Find out more</button>
+        <div class="post-card__content">
+            <div class="post-card__content--left">
+                <p class="subtitle">{{ subtitle }}</p>
+                <h2 class="heading">{{ title }}</h2>
+            </div>
+            <div class="post-card__content--right">
+                <NuxtLink :to="`/posts/${slug}`" class="button">Find out more</NuxtLink>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -21,7 +26,7 @@ export default {
         },
         postIntro: {
             type: String,
-            required: true,
+            required: false,
         },
         imageUrl: {
             type: String,
@@ -31,6 +36,10 @@ export default {
             type: String,
             required: false,
         },
+        slug: {
+            type: String,
+            required: true,
+        }
     }
 }
 </script>
