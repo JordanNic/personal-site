@@ -2,6 +2,7 @@
 <template>
     <header class="header" :class="{ 'header--yellow': headerYellow }">
         <div class="container">
+            <BackButton />
             <p>{{ tagLine }}</p>
             <h1>{{ title }}</h1>
             <p>{{ introText }}</p>
