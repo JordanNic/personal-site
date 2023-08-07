@@ -5,7 +5,7 @@
     </button>
 </template>
 
-<script>
+<script lang="ts">
 export default {
     methods: {
         // The goBack function will take the user back one step in the router.
@@ -15,3 +15,25 @@ export default {
     }
 };
 </script>
+
+<style lang="scss">
+@import "../assets/scss/partials/variables";
+
+.go-back {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 1em;
+    background-color: transparent;
+    color: $white;
+    border: 1px solid $white;
+    padding: 5px;
+    max-width: 8%;
+    justify-content: center;
+    i {
+        line-height: 1em;
+        margin-right: 5px;
+        padding-top: 3px;
+    }
+}
+
+</style>
