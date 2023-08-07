@@ -4,4 +4,20 @@ button, .button {
     font-size: $font-size;
     @include border-radius(8px);
     @include display-font-stack;
+    &.go-back {
+        display: flex;
+        cursor: pointer;
+        margin-bottom: 1em;
+        background-color: transparent;
+        color: $white;
+        border: 1px solid $white;
+        padding: 5px;
+        max-width: 8%;
+        justify-content: center;
+        i {
+            line-height: 1em;
+            margin-right: 5px;
+            padding-top: 3px;
+        }
+    }
 }
