@@ -11,6 +11,9 @@ header, .header {
         h1, p {
             color: $black !important;
         }
+        .go-back {
+            display: none;
+        }
     }
     h1 {
         @include display-font-stack;
