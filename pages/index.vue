@@ -13,7 +13,7 @@
                 :slug="post.slug"
                 :imageAlt="post.imageAlt"
                 :imageUrl="post.imageUrl"
-            ></Post>
+            />
         </section>
     </main>
 </template>
