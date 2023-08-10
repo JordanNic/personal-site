@@ -29,8 +29,7 @@ export default {
             masterHeadProps: {
                 logoBlack: false,
                 headerYellow: false,
-                tagLine: "UI",
-                title: "Title of project",
+                title: "My Work",
                 introText: "Something"
             },
             posts: [
