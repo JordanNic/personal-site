@@ -13,6 +13,7 @@ export default {
             navigationProps: {
                 logoBlack: false,
                 iconsBlack: false,
+                blackText: false,
             },
             masterHeadProps: {
                 logoBlack: false,
