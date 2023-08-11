@@ -4,7 +4,7 @@
             <div class="nav-content">
                 <div class="nav-content--left">
                     <NuxtLink to="/" class="logo--link" aria-label="Logo Link">
-                        <div class="logo"></div>
+                        <div class="logo logo--black"></div>
                     </NuxtLink>
                 </div>
                 <div class="nav-content--right">
