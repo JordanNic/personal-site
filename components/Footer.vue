@@ -4,9 +4,6 @@
             <div class="footer-content">
                 <div class="logo logo--white"></div>
                 <div class="social-group">
-                    <a href="https://twitter.com/_JordanTN" class="social-icons social-icons--white" aria-label="My Twitter Profile" target="_blank">
-                        <i class="lab la-twitter"></i>
-                    </a>
                     <a href="https://www.linkedin.com/in/jordan-nicholson/" class="social-icons social-icons--white" aria-label="My Linkedin Profile " target="_blank">
                         <i class="lab la-linkedin-in"></i>
                     </a>
