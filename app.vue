@@ -1,6 +1,9 @@
 <template>
-  <NuxtPage />
-  <Footer />
+    <Navigation />
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
+    <Footer />
 </template>
 
 <script allowJS>
