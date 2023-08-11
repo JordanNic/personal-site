@@ -12,7 +12,7 @@
                     </a>
                 </div>
                 <p class="footer-content--copyright">
-                    Site designs and build by Jordan Nicholson. Copyright 2023
+                    Site designs and build by Jordan Nicholson. Copyright {{ date }}
                 </p>
                 <ul class="footer-content--links">
                     <li class="footer-content--links__items">Terms & Conditions</li>
@@ -23,3 +23,8 @@
         </div>
     </footer>
 </template>
+
+<script lang="ts" setup>
+// Will get the year and display in the date field above. 
+const date = new Date().getFullYear();
+</script>
