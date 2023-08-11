@@ -21,9 +21,9 @@ h3,
     @include display-font-stack;
 }
 
-@mixin p {
+p {
     @include font-stack;
     @include fontSize;
     line-height: $line-height;
-    font-weight: $font-weight;
+    margin-bottom: .5rem;
 }
