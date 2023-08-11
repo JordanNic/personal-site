@@ -1,6 +1,6 @@
 <template>
     <button @click="goBack" class="go-back">
-        <i class="las la-arrow-circle-left"></i>
+        <i class="las la-arrow-left"></i>
         Go Back
     </button>
 </template>
