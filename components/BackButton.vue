@@ -23,12 +23,13 @@ export default {
     display: flex;
     cursor: pointer;
     margin-bottom: 1em;
-    background-color: transparent;
+    background-color: rgba($color: $white, $alpha: 0.1);
     color: $white;
-    border: 1px solid $white;
-    padding: 5px;
-    max-width: 8%;
+    //border: 1px solid $white;
+    padding: 10px 20px;
+    max-width: 10%;
     justify-content: center;
+    border-radius: 22px;
     i {
         line-height: 1em;
         margin-right: 5px;
