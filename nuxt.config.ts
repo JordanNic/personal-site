@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
     ],
+    content: {
+        documentDriven: true,
+    },
     app: {
         head: {
             htmlAttrs: { lang: "en" },
