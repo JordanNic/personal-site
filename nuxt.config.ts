@@ -13,7 +13,6 @@ export default defineNuxtConfig({
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 // <meta name="description" content="Hi I'm Jordan, a Product Designer from the UK">
                 { name: 'description', content: 'Hi I\'m Jordan, a Product Designer from the UK' },
-                { name: 'theme-color', content: '#E7AA35' }
             ],
             link: [
                 // <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
