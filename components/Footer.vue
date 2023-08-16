@@ -15,9 +15,21 @@
                     Site designs and build by Jordan Nicholson. Copyright {{ date }}
                 </p>
                 <ul class="footer-content--links">
-                    <li class="footer-content--links__items">Terms & Conditions</li>
-                    <li class="footer-content--links__items">Accessibility Statement</li>
-                    <li class="footer-content--links__items">Privacy Policy</li>
+                    <li class="footer-content--links__items">
+                        <NuxtLink to="/terms" aria-label="Terms and Conditions">
+                            Terms & Conditions
+                        </NuxtLink>
+                    </li>
+                    <li class="footer-content--links__items">
+                        <NuxtLink to="/accessibility" aria-label="Accessibility Statement">
+                            Accessibility Statement
+                        </NuxtLink>
+                    </li>
+                    <li class="footer-content--links__items">
+                        <NuxtLink to="/privacy" aria-label="Privacy Policy">
+                            Privacy Policy
+                        </NuxtLink>
+                    </li>
                 </ul>
             </div>
         </div>
