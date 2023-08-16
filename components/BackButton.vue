@@ -20,15 +20,13 @@ export default {
 @import "../assets/scss/partials/variables";
 
 .go-back {
-    display: flex;
     cursor: pointer;
     margin-bottom: 1em;
     background-color: rgba($color: $white, $alpha: 0.1);
     color: $white;
     //border: 1px solid $white;
     padding: 10px 20px;
-    max-width: 10%;
-    justify-content: center;
+    max-width: fit-content;
     border-radius: 22px;
     i {
         line-height: 1em;
