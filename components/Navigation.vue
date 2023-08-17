@@ -10,7 +10,7 @@
                 <div class="nav-content--right">
                     <ul class="nav-links">
                         <li class="nav-links--items"><NuxtLink to="/" aria-label="Home">Home</NuxtLink></li>
-                        <li class="nav-links--items"><NuxtLink to="/blog" aria-label="My Blog">My Blog</NuxtLink></li>
+                        <li class="nav-links--items"><NuxtLink to="/blog" aria-label="Work">Work</NuxtLink></li>
                     </ul>
                     <div @click="openMobileNav()" id="mobile-menu">
                         <div class="line1"></div>
