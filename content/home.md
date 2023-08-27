@@ -13,3 +13,9 @@ tagLine: Hi, I’m Jordan and I am a
 ::
 
 This is the content for my Home page
+
+::call-out
+---
+heading: Title coming fron the markdown file
+---
+::
