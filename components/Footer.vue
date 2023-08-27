@@ -2,7 +2,9 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="logo logo--white"></div>
+                <NuxtLink to="/" class="logo--link" aria-label="Logo Link">
+                        <div class="logo logo--white"></div>
+                    </NuxtLink>
                 <div class="social-group">
                     <a href="https://www.linkedin.com/in/jordan-nicholson/" class="social-icons social-icons--white" aria-label="My Linkedin Profile " target="_blank">
                         <i class="lab la-linkedin-in"></i>
