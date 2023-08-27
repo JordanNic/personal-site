@@ -5,7 +5,6 @@
             <p>{{ tagLine }}</p>
             <h1>{{ title }}</h1>
             <p>{{ introText }}</p>
-            <BackButton />
         </div>
     </header>
 </template>
