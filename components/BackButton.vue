@@ -1,8 +1,8 @@
 <template>
-    <button @click="goBack" class="go-back">
+    <Button @click="goBack" class="go-back">
         <i class="las la-arrow-left"></i>
         Go Back
-    </button>
+    </Button>
 </template>
 
 <script lang="ts">
@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/scss/partials/variables";
 
 .go-back {
