@@ -1,7 +1,7 @@
 ---
-title: "Test post"
+title: "This is a test"
 description: "this is the description of the test"
-slug: test-post
+slug: test-post-2
 image: /img/placeholder-img.png
 alt: Placeholder Image
 ---

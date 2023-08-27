@@ -1,7 +1,7 @@
 ---
-title: "Test post"
+title: "First Post"
 description: "this is the description of the test"
-slug: test-post
+slug: first-post
 image: /img/placeholder-img.png
 alt: Placeholder Image
 ---
@@ -13,4 +13,4 @@ headerYellow: false
 ---
 ::
 
-Lorem ipsum etc...Put your post here
+This is my first post
