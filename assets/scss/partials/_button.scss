@@ -1,8 +1,0 @@
-button, .button {
-    display: block;
-    padding: 13px 26px;
-    border: none;
-    font-size: $font-size;
-    @include border-radius(8px);
-    @include display-font-stack;
-}
