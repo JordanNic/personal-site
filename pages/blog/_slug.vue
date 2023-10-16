@@ -1,5 +1,5 @@
 <template>
-    <ContentDoc />
+	<ContentDoc />
 </template>
 
 <script>
