@@ -13,7 +13,7 @@
 							<NuxtLink to="/" aria-label="Home">Home</NuxtLink>
 						</li>
 						<li class="nav-links--items">
-							<NuxtLink to="/blog" aria-label="Work"
+							<NuxtLink to="/my-blog" aria-label="Work"
 								>Work</NuxtLink
 							>
 						</li>
