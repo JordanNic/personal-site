@@ -1,5 +1,8 @@
 <template>
-	<LandingPage />
+	<MainNavigation />
+	<NuxtPage />
+	<MainFooter />
+	<!--<LandingPage />-->
 </template>
 
 <script allowJS>
