@@ -4,6 +4,11 @@
 			<div class="logo logo--white"></div>
 			<h1>Product Designer</h1>
 			<h2>Jordan Nicholson</h2>
+			<p>
+				Nice to meet you! I'm currently rebuidling my website, if you
+				wish to chat please get in touch by following one of the links
+				below.
+			</p>
 			<div class="social-group">
 				<a
 					href="https://www.linkedin.com/in/jordan-nicholson/"
@@ -69,5 +74,15 @@
 	h2 {
 		@include font-stack;
 		color: $white;
+	}
+
+	p {
+		@include font-stack;
+		color: $white;
+		text-align: left;
+		max-width: 40%;
+		@media screen and (max-width: $break-small) {
+			text-align: center;
+		}
 	}
 </style>
