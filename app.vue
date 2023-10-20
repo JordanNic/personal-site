@@ -1,8 +1,9 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
-	<MainNavigation />
+	<!--<MainNavigation />
 	<NuxtPage />
-	<MainFooter />
-	<!--<LandingPage />-->
+	<MainFooter />-->
+	<LandingPage />
 </template>
 
 <script allowJS>
