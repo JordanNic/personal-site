@@ -83,6 +83,7 @@
 		max-width: 40%;
 		@media screen and (max-width: $break-small) {
 			text-align: center;
+			max-width: 100%;
 		}
 	}
 </style>
