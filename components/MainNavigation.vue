@@ -47,7 +47,7 @@
 	</nav>
 </template>
 
-<script allowJS>
+<script>
 	export default {
 		methods: {
 			openMobileNav() {

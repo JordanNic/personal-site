@@ -9,7 +9,7 @@
 	</header>
 </template>
 
-<script lang="ts" allowJS>
+<script lang="ts">
 	export default {
 		name: 'MasterHeader',
 		props: {
