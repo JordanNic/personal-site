@@ -15,7 +15,9 @@
 					<p class="post-card__content--intro">
 						{{ article.description }}
 					</p>
-					<Button :href="`${article._path}`">Find out more</Button>
+					<NuxtLink :to="`${article._path}`" class="button"
+						>Find out more</NuxtLink
+					>
 				</div>
 			</article>
 		</section>
