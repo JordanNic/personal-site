@@ -17,29 +17,31 @@
 								>Work</NuxtLink
 							>
 						</li>
+						<li class="nav-links--items" target="_blank">
+							<a
+								href="https://www.linkedin.com/in/jordan-nicholson/"
+								class="social-icons social-icons--black"
+								aria-label="My Linkedin Profile"
+								target="_blank"
+							>
+								<i class="lab la-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="nav-links--items" target="_blank">
+							<a
+								href="https://github.com/JordanNic"
+								class="social-icons social-icons--black"
+								aria-label="My Github Profile"
+								target="_blank"
+							>
+								<i class="lab la-github"></i>
+							</a>
+						</li>
 					</ul>
 					<div id="mobile-menu" @click="openMobileNav()">
 						<div class="line1"></div>
 						<div class="line2"></div>
 						<div class="line3"></div>
-					</div>
-					<div class="social-group">
-						<a
-							href="https://www.linkedin.com/in/jordan-nicholson/"
-							class="social-icons social-icons--black"
-							aria-label="My Linkedin Profile"
-							target="_blank"
-						>
-							<i class="lab la-linkedin-in"></i>
-						</a>
-						<a
-							href="https://github.com/JordanNic"
-							class="social-icons social-icons--black"
-							aria-label="My Github Profile"
-							target="_blank"
-						>
-							<i class="lab la-github"></i>
-						</a>
 					</div>
 				</div>
 			</div>
