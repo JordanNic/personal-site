@@ -53,6 +53,21 @@ body {
     font-weight: bold;
 }
 
+.display {
+    &-desktop {
+        display: block;
+        @media screen and (max-width: $break-small) {
+            display: none;
+        }
+    }
+    &-mobile {
+        display: none;
+        @media screen and (max-width: $break-small) {
+            display: block;
+        }
+    }
+}
+
 @media only screen and (max-width: $break-small) {
     .hide {
         display: none;
