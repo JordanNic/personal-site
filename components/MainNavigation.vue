@@ -11,17 +11,18 @@
 					<ul class="nav-links">
 						<li class="nav-links--items">
 							<NuxtLink to="/" aria-label="Home">Home</NuxtLink>
+							<i class="las la-angle-right display-mobile"></i>
 						</li>
 						<li class="nav-links--items">
 							<NuxtLink to="/my-blog" aria-label="Work"
-								>Work</NuxtLink
+								>My Work</NuxtLink
 							>
+							<i class="las la-angle-right display-mobile"></i>
 						</li>
 					</ul>
 					<div id="mobile-menu" @click="openMobileNav()">
 						<div class="line1"></div>
 						<div class="line2"></div>
-						<div class="line3"></div>
 					</div>
 				</div>
 			</div>
