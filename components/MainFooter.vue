@@ -7,6 +7,14 @@
 				</NuxtLink>
 				<div class="social-group">
 					<a
+						href="https://github.com/JordanNic"
+						class="social-icons social-icons--white"
+						aria-label="My Github Profile"
+						target="_blank"
+					>
+						<i class="lab la-github"></i>
+					</a>
+					<a
 						href="https://www.linkedin.com/in/jordan-nicholson/"
 						class="social-icons social-icons--white"
 						aria-label="My Linkedin Profile "
@@ -15,27 +23,19 @@
 						<i class="lab la-linkedin-in"></i>
 					</a>
 					<a
-						href="https://github.com/JordanNic"
+						href="https://www.instagram.com/jordan_nic/"
 						class="social-icons social-icons--white"
-						aria-label="My Github Profile"
+						aria-label="My Instagram Profile"
 						target="_blank"
 					>
-						<i class="lab la-github"></i>
+						<i class="lab la-instagram"></i>
 					</a>
 				</div>
 				<p class="footer-content--copyright">
-					Site designs and build by Jordan Nicholson. Copyright
+					Site designed and built by Jordan Nicholson. Copyright
 					{{ date }}
 				</p>
 				<ul class="footer-content--links">
-					<li class="footer-content--links__items">
-						<NuxtLink
-							to="/terms-conditions"
-							aria-label="Terms and Conditions"
-						>
-							Terms & Conditions
-						</NuxtLink>
-					</li>
 					<li class="footer-content--links__items">
 						<NuxtLink
 							to="/accessibility-statement"
