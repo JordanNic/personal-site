@@ -27,15 +27,14 @@ footer {
             @media screen and (max-width: $break-small) {
                 grid-column: 1 / span 2;
                 grid-row: 3;
-                font-size: 12px;
-                text-align: center;
-                justify-content: center;
+                font-size: 14px;
+                justify-content: flex-start;
             }
         }
         &--links {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            align-items: left;
             list-style: none;
             margin: 0;
             padding: 0;
@@ -43,21 +42,18 @@ footer {
             @media screen and (max-width: $break-small) {
                 grid-column: 1 / span 2;
                 grid-row: 2;
-                font-size: 12px;
-                justify-content: center;
+                font-size: 14px;
+                justify-content: flex-start;
                 flex-flow: column;
-                padding: 20px 0px;
-                border-top: 1px solid $medium-grey;
-                border-bottom: 1px solid $medium-grey;
             }
             &__items {
                 a {
                     display: flex;
                     color: $white;
-                    text-decoration: none;
+                    text-decoration: underline;
                     @media screen and (max-width: $break-small) {
                         justify-content: space-between;
-                        margin: 8px !important;
+                        margin: 8px 0 !important;
                     }
                     &:hover {
                         text-decoration: underline;
