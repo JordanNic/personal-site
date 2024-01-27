@@ -1,8 +1,7 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
-	<main class="container">
-		<MasterHeader :header-yellow="false" :title="'My Work'" />
-		<BlogPosts />
-	</main>
+	<MasterHeader :header-yellow="false" :title="'My Work'" />
+	<BlogPosts></BlogPosts>
 </template>
 
 <script></script>

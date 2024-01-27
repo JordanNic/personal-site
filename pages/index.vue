@@ -1,7 +1,5 @@
 <template>
-	<main class="container">
-		<ContentDoc path="/home" />
-	</main>
+	<ContentDoc path="/home" />
 </template>
 
 <script></script>
