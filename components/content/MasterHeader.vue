@@ -1,38 +1,13 @@
 <!-- This is the Master Header component that will be pulled into most pages -->
 <template>
-	<header class="header" :class="{ 'header--yellow': headerYellow }">
-		<div class="container">
-			<p>{{ tagLine }}</p>
-			<h1>{{ title }}</h1>
-			<p>{{ introText }}</p>
-		</div>
+	<header class="header">
+		<slot />
 	</header>
 </template>
 
 <script lang="ts">
 	export default {
 		name: 'MasterHeader',
-		props: {
-			headerYellow: {
-				type: Boolean,
-				required: true,
-			},
-			tagLine: {
-				type: String,
-				default: 'Tag Line',
-				required: false,
-			},
-			title: {
-				type: String,
-				default: 'Page Title',
-				required: false,
-			},
-			introText: {
-				type: String,
-				default: 'Some introduction text.',
-				required: false,
-			},
-		},
 	}
 </script>
 
@@ -42,36 +17,16 @@
 
 	header,
 	.header {
+		width: 100%;
 		display: flex;
-		flex-wrap: wrap;
-		align-content: center;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-flow: column;
 		margin: 100px 0 40px;
-		background-color: $black;
-		height: 50vh;
-		border-radius: 32px;
-		&--yellow {
-			background-color: $yellow;
-			h1,
-			p {
-				color: $black !important;
-			}
-			.go-back {
-				display: none;
-			}
-		}
-		h1 {
-			@include display-font-stack;
-			font-size: 48px;
-			line-height: 1.7em;
-			margin-bottom: 0;
-			color: $white;
-		}
-		p {
-			width: 50%;
-			@include font-stack;
-			font-size: 20px;
-			line-height: 1.5;
-			color: $white;
+		height: 30vh;
+		h3 {
+			margin-bottom: 10px;
 		}
 	}
 </style>
