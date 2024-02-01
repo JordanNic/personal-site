@@ -63,6 +63,7 @@
 
 	h1 {
 		@include display-font-stack;
+		font-weight: $font-weight--heading;
 		color: $white;
 		margin-bottom: 0;
 		font-size: 4rem;
