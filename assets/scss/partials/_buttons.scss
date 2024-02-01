@@ -1,12 +1,14 @@
-button,.button {
-    display: inline-block;
-    padding: 13px 26px;
+button, .button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     min-height: 50px;
-    border: none;
     font-size: $font-size;
-    @include border-radius(8px);
     @include display-font-stack;
+    font-weight: $font-weight--heading;
     text-decoration: none;
-    background-color: $yellow;
+    background-color: $medium-grey;
     color: $black;
 }
