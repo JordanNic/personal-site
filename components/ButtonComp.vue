@@ -29,10 +29,9 @@
 		min-height: 50px;
 		border: none;
 		font-size: $font-size;
-		@include border-radius(8px);
 		@include display-font-stack;
+		font-weight: $font-weight--heading;
 		text-decoration: none;
-		background-color: $yellow;
 		&:visited {
 			color: $black;
 		}
