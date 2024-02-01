@@ -1,7 +1,6 @@
 // Mixins
 @mixin display-font-stack {
     font-family: $font-family--heading;
-    font-weight: $font-weight--heading;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.5em;
@@ -9,7 +8,6 @@
 
 @mixin font-stack {
     font-family: $font-family--default;
-    font-weight: $font-weight--default;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
