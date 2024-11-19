@@ -1,21 +1,34 @@
 ---
-title: "Product Designer"
-description: "Nice to meet you! Over the past couple of years, I have been working with various tech companies in and around Devon, working to improve their customers experience."
+title: 'Product Designer'
+description: 'UX Designer based in the south-west of the UK.'
 ---
 
 ::master-header
----
-headerYellow: true
-tagLine: Hi, I’m Jordan and I am a
-:title: "title"
-:introText: "description"
----
+
+# Jordan Nicholson
+
+:::blog-tag
+UI & UX Designer
+:::
+
 ::
 
-This is the content for my Home page
+::content-block
 
-::call-out
----
-heading: Title coming fron the markdown file
----
+:::blog-tag
+What I do
+:::
+
+As a Product Designer, I love having the ability to make a real difference, helping everyone enjoy the experience they get while using digital products. Over the past couple of years, I have been working with various technology companies in and around Devon, helping to improve the UI and UX of their products focusing on the needs of their customers’.
+
+::
+
+::content-block
+
+:::blog-tag
+Who I've Worked With
+:::
+
+Some images need to go here for who I've worked with.
+
 ::
