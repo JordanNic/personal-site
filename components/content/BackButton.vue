@@ -1,12 +1,13 @@
 <template>
-	<Button class="go-back" @click="goBack">
+	<button class="go-back" @click="goBack">
 		<i class="las la-arrow-left"></i>
 		Go Back
-	</Button>
+	</button>
 </template>
 
 <script lang="ts">
 	export default {
+		name: 'BackButton',
 		methods: {
 			// The goBack function will take the user back one step in the router.
 			goBack() {
@@ -21,13 +22,17 @@
 
 	.go-back {
 		cursor: pointer;
-		margin-bottom: 1em;
-		background-color: rgba($color: $white, $alpha: 0.1);
+		background-color: $black;
 		color: $white;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		border: none;
+		justify-content: flex-start;
 		//border: 1px solid $white;
-		padding: 10px 20px;
-		max-width: fit-content;
-		border-radius: 22px;
+		//padding: 10px 20px;
+		//max-width: fit-content;
+		//border-radius: 22px;
 		i {
 			line-height: 1em;
 			margin-right: 5px;
