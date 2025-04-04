@@ -18,7 +18,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../assets/scss/partials/variables';
+	@import '../../assets/scss/partials/variables';
 
 	.go-back {
 		cursor: pointer;
