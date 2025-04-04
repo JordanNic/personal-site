@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
-	modules: ['@nuxt/content'],
+	modules: [
+		'@nuxt/content',
+		'@nuxt/image'
+	],
 	content: {
 		documentDriven: true,
 	},
