@@ -47,7 +47,7 @@
 		height: 100vh;
 		align-items: flex-start;
 		@media screen and (max-width: $break-small) {
-			align-items: center;
+			padding: 0 10px;
 		}
 		.logo {
 			margin-bottom: 20px;
@@ -83,7 +83,6 @@
 		text-align: left;
 		max-width: 40%;
 		@media screen and (max-width: $break-small) {
-			text-align: center;
 			max-width: 100%;
 		}
 	}
