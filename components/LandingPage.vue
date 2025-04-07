@@ -68,7 +68,7 @@
 		margin-bottom: 0;
 		font-size: 4rem;
 		@media screen and (max-width: $break-small) {
-			font-size: 2.25rem;
+			font-size: 2rem;
 		}
 	}
 
