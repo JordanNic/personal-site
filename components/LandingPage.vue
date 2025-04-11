@@ -5,7 +5,7 @@
 			<h1>Product Designer</h1>
 			<h2>Jordan Nicholson</h2>
 			<p>
-				Nice to meet you! I'm currently rebuidling my website, if you
+				Nice to meet you! I'm currently rebuilding my website, if you
 				wish to chat please get in touch by following one of the links
 				below.
 			</p>
