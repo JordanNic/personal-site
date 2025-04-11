@@ -1,11 +1,7 @@
-/* app.scss @imports all the individul scss files */
+/* app.scss @use all the individul scss files */
 
-@import "partials/variables";
-@import "partials/mixins";
-@import "partials/typography";
-@import "partials/base";
-@import "partials/social-icons";
-@import "partials/nav-bar";
-@import "partials/footer";
-@import "partials/logo";
-@import "partials/buttons";
+@use "partials/helpers";
+@use "partials/base";
+@use "partials/nav-bar";
+@use "partials/logo";
+@use "partials/buttons";
