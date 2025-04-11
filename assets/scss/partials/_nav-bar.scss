@@ -1,24 +1,26 @@
+@use "/assets/scss/partials/helpers" as helper;
+
 nav {
     width: 100%;
     top: 0;
     z-index: 100;
     position: fixed;
-    background-color: $white;
+    background-color: helper.$white;
     .nav-content {
         width: 100%;
         display: flex;
         justify-content: space-between;
         padding: 20px 0;
-        @media screen and (max-width: $break-medium) {
+        @media screen and (max-width: helper.$break-medium) {
             flex-direction: row;
             z-index: 100;
             transition: all 0.2s ease-out;
         }
-        @media screen and (max-width: $break-small) {
+        @media screen and (max-width: helper.$break-small) {
             padding: 0;
         }
         &--left {
-            @media screen and (max-width: $break-small) {
+            @media screen and (max-width: helper.$break-small) {
                 margin: 20px 0;   
             }
         }
@@ -33,7 +35,7 @@ nav {
                 list-style: none;
                 margin: 0;
                 padding: 0;
-                @media screen and (max-width: $break-medium) {
+                @media screen and (max-width: helper.$break-medium) {
                     //display: none;
                     position: absolute;
                     flex-direction: column;
@@ -42,13 +44,13 @@ nav {
                     right: 0;
                     padding: 100px 40px 40px;
                     justify-content: flex-start;
-                    background-color: $white;
+                    background-color: helper.$white;
                     transform: translateX(100%);
                     transition: transform 0.2s ease-in;
                 }
                 &--items {
                     margin: 0 25px;
-                    @media screen and (max-width: $break-medium) {
+                    @media screen and (max-width: helper.$break-medium) {
                         display: flex;
                         justify-content: space-between;
                         width: 100%;
@@ -59,10 +61,10 @@ nav {
                         text-decoration: none;
                         text-transform: uppercase;
                         letter-spacing: 5px;
-                        color: $black;
-                        @include font-stack;
+                        color: helper.$black;
+                        @include helper.font-stack;
                         //padding: 10px 20px;
-                        @media screen and (max-width: $break-medium) {
+                        @media screen and (max-width: helper.$break-medium) {
                             text-align: left;
                             font-size: 1.75rem;
                             letter-spacing: 10px;
@@ -74,7 +76,7 @@ nav {
                         opacity: 0.2;
                     }
                     .router-link-active {
-                        @include text--bold;
+                        @include helper.text--bold;
                     }
                 }
             }
@@ -83,7 +85,7 @@ nav {
 }
 
 .nav-active {
-    @media screen and (max-width: $break-medium) {
+    @media screen and (max-width: helper.$break-medium) {
         transform: translateX(0) !important;
         display: inline-flex;
         position: fixed;
@@ -97,7 +99,7 @@ nav {
     height: 50px;
     font-size: 24px;
     padding: 4px 2px;
-    @media screen and (max-width: $break-medium) {
+    @media screen and (max-width: helper.$break-medium) {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -106,7 +108,7 @@ nav {
             height: 3px;
             margin: 8px;
             border-radius: 2px;
-            background-color: $black;
+            background-color: helper.$black;
             transition: all 0.3s ease-in;
         }
         &.toggle {
@@ -119,7 +121,7 @@ nav {
             }
         }
     }
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: helper.$break-small) {
         margin: 20px 0;
     }
 }

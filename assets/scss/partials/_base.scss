@@ -1,3 +1,5 @@
+@use "/assets/scss/partials/helpers" as helper;
+
 /* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Sora:wght@300;600&display=swap');
 
@@ -12,7 +14,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: $white;
+    background-color: helper.$white;
 }
 
 .container {
@@ -23,7 +25,7 @@ body {
     padding: 0 40px;
     display: flex;
     flex-flow: column;
-    @media only screen and (max-width: $break-small) {
+    @media only screen and (max-width: helper.$break-small) {
         padding: 0 20px;
     }
 }
@@ -56,19 +58,19 @@ body {
 .display {
     &-desktop {
         display: block;
-        @media screen and (max-width: $break-small) {
+        @media screen and (max-width: helper.$break-small) {
             display: none;
         }
     }
     &-mobile {
         display: none;
-        @media screen and (max-width: $break-small) {
+        @media screen and (max-width: helper.$break-small) {
             display: block;
         }
     }
 }
 
-@media only screen and (max-width: $break-small) {
+@media only screen and (max-width: helper.$break-small) {
     .hide {
         display: none;
         visibility: hidden;

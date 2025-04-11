@@ -1,3 +1,5 @@
+@use "/assets/scss/partials/helpers" as helper;
+
 .logo {
     display: flex;
     justify-content: center;
@@ -7,20 +9,20 @@
     height: 50px;
     border-radius: 25px;
     font-size: 30px;
-    @include display-font-stack;
-    font-weight: $font-weight--heading;
-    background-color: $white;
-    color: $black;
+    @include helper.display-font-stack;
+    font-weight: helper.$font-weight--heading;
+    background-color: helper.$white;
+    color: helper.$black;
     &::before {
         content: "J";
     }
     &--black {
-        background-color: $black;
-        color: $white;
+        background-color: helper.$black;
+        color: helper.$white;
     }
     &--white {
-        background-color: $white;
-        color: $black;
+        background-color: helper.$white;
+        color: helper.$black;
     }
     &--link {
         text-decoration: none;

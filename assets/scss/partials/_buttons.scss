@@ -1,3 +1,5 @@
+@use "/assets/scss/partials/helpers" as helper;
+
 button, .button {
     width: 100%;
     display: flex;
@@ -5,10 +7,10 @@ button, .button {
     align-items: center;
     padding: 10px 20px;
     min-height: 50px;
-    font-size: $font-size;
-    @include display-font-stack;
-    font-weight: $font-weight--heading;
+    font-size: helper.$font-size;
+    @include helper.display-font-stack;
+    font-weight: helper.$font-weight--heading;
     text-decoration: none;
-    background-color: $medium-grey;
-    color: $black;
+    background-color: helper.$medium-grey;
+    color: helper.$black;
 }
