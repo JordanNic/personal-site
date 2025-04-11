@@ -19,8 +19,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../assets/scss/partials/variables';
-	@import '../assets/scss/partials/mixins';
+	@use "/assets/scss/partials/helpers" as helper;
 
 	button,
 	.button {
@@ -28,12 +27,12 @@
 		padding: 13px 26px;
 		min-height: 50px;
 		border: none;
-		font-size: $font-size;
-		@include display-font-stack;
-		font-weight: $font-weight--heading;
+		font-size: helper.$font-size;
+		@include helper.display-font-stack;
+		font-weight: helper.$font-weight--heading;
 		text-decoration: none;
 		&:visited {
-			color: $black;
+			color: helper.$black;
 		}
 	}
 </style>

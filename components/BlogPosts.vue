@@ -27,8 +27,7 @@
 <script></script>
 
 <style lang="scss">
-	@import '../assets/scss/partials/variables';
-	@import '../assets/scss/partials/mixins';
+	@use "/assets/scss/partials/helpers" as helper;
 
 	.post {
 		display: flex;
@@ -38,8 +37,8 @@
 		gap: 20px;
 		&-card {
 			width: 49%;
-			background-color: $light-grey;
-			@include border-radius(16px);
+			background-color: helper.$light-grey;
+			@include helper.border-radius(16px);
 			min-height: 370px;
 			background-size: cover;
 			display: flex;
@@ -49,11 +48,11 @@
 			&__content {
 				width: 100%;
 				&--heading {
-					@include display-font-stack;
+					@include helper.display-font-stack;
 					margin-bottom: 0;
 				}
 				&--intro {
-					@include font-stack;
+					@include helper.font-stack;
 				}
 			}
 		}

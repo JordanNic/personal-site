@@ -18,21 +18,17 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/scss/partials/variables';
+	@use "/assets/scss/partials/helpers" as helper;
 
 	.go-back {
 		cursor: pointer;
-		background-color: $black;
-		color: $white;
+		background-color: helper.$black;
+		color: helper.$white;
 		width: 100%;
 		position: absolute;
 		left: 0;
 		border: none;
 		justify-content: flex-start;
-		//border: 1px solid $white;
-		//padding: 10px 20px;
-		//max-width: fit-content;
-		//border-radius: 22px;
 		i {
 			line-height: 1em;
 			margin-right: 5px;

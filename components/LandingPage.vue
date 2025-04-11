@@ -32,11 +32,10 @@
 </template>
 
 <style lang="scss">
-	@import '../assets/scss/partials/variables';
-	@import '../assets/scss/partials/mixins';
+	@use "/assets/scss/partials/helpers" as helper;
 
 	body {
-		background-color: $black;
+		background-color: helper.$black;
 	}
 
 	.landing-page {
@@ -46,43 +45,54 @@
 		width: 100%;
 		height: 100vh;
 		align-items: flex-start;
-		@media screen and (max-width: $break-small) {
+		@media screen and (max-width: helper.$break-small) {
 			padding: 0 10px;
 		}
 		.logo {
 			margin-bottom: 20px;
 		}
 		.social-group {
-			margin-left: 0;
-			gap: 40px;
+		display: flex;
+		justify-content: flex-end;
+		gap: 16px;
 			.social-icons {
-				width: auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 50px;
+				height: 50px;
+				text-decoration: none;
+				color: helper.$white;
+				font-size: 30px;
+				&--black {
+					color: helper.$black !important;
+				}
 			}
 		}
 	}
 
 	h1 {
-		@include display-font-stack;
-		font-weight: $font-weight--heading;
-		color: $white;
+		@include helper.display-font-stack;
+		font-weight: helper.$font-weight--heading;
+		color: helper.$white;
 		margin-bottom: 0;
 		font-size: 4rem;
-		@media screen and (max-width: $break-small) {
+		@media screen and (max-width: helper.$break-small) {
 			font-size: 2rem;
 		}
 	}
 
 	h2 {
-		@include font-stack;
-		color: $white;
+		@include helper.font-stack;
+		color: helper.$white;
 	}
 
 	p {
-		@include font-stack;
-		color: $white;
+		@include helper.font-stack;
+		color: helper.$white;
 		text-align: left;
 		max-width: 40%;
-		@media screen and (max-width: $break-small) {
+		@media screen and (max-width: helper.$break-small) {
 			max-width: 100%;
 		}
 	}
