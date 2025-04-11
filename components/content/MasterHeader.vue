@@ -12,9 +12,6 @@
 </script>
 
 <style lang="scss">
-	@import '../../assets/scss/partials/variables';
-	@import '../../assets/scss/partials/mixins';
-
 	header,
 	.header {
 		width: 100%;
