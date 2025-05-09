@@ -38,6 +38,7 @@
 		}
 		@media screen and (max-width: helper.$break-medium) {
 			flex-flow: column-reverse;
+			justify-content: space-evenly;
 			&__left {
 				width: 100%;
 			}
