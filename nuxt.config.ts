@@ -3,8 +3,10 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
 	modules: [
 		'@nuxt/content',
+		'@nuxtjs/mdc',
 		'@nuxt/image'
 	],
+	devtools: { enabled: true },
 	content: {
 		documentDriven: true,
 	},
