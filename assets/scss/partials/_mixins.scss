@@ -3,19 +3,25 @@
 // Mixins
 @mixin display-font-stack {
     font-family: v.$font-family--heading;
+    line-height: v.$line-height;
+    font-weight: v.$font-weight--heading;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1.5em;
 }
 
 @mixin font-stack {
     font-family: v.$font-family--default;
+    line-height: v.$line-height;
+    font-weight: v.$font-weight--default;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 @mixin fontSize {
     font-size: v.$font-size;
+    @media screen and (max-width: v.$break-small) {
+        font-size: v.$font-size - 4px;
+    }
 }
 
 @mixin text--bold {
