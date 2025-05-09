@@ -38,7 +38,7 @@
 		}
 		@media screen and (max-width: helper.$break-medium) {
 			flex-flow: column-reverse;
-			justify-content: space-evenly;
+			justify-content: flex-end; // Used flex-end as the column is reversed.
 			&__left {
 				width: 100%;
 			}
