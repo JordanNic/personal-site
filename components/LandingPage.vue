@@ -1,31 +1,13 @@
 <template>
 	<main class="container">
 		<div class="landing-page">
-			<div class="logo logo--white"></div>
-			<h1>Product Designer</h1>
-			<h2>Jordan Nicholson</h2>
-			<p>
-				Nice to meet you! I'm currently rebuilding my website, if you
-				wish to chat please get in touch by following one of the links
-				below.
-			</p>
-			<div class="social-group">
-				<a
-					href="https://www.linkedin.com/in/jordan-nicholson/"
-					class="social-icons social-icons--white"
-					aria-label="My Linkedin Profile"
-					target="_blank"
-				>
-					<i class="lab la-linkedin-in"></i>
-				</a>
-				<a
-					href="https://github.com/JordanNic"
-					class="social-icons social-icons--white"
-					aria-label="My Github Profile"
-					target="_blank"
-				>
-					<i class="lab la-github"></i>
-				</a>
+			<div class="landing-page__left">
+				<h1>Hello, I’m Jordan! UI/UX Designer</h1>
+				<p>I enjoy being able to make a real difference, helping everyone enjoy the experience of using a digital product.</p>
+				<SocialIcons />
+			</div>
+			<div class="landing-page__right">
+				<NuxtImg src="/img/notion-face.png" />
 			</div>
 		</div>
 	</main>
@@ -34,66 +16,35 @@
 <style lang="scss">
 	@use "/assets/scss/partials/helpers" as helper;
 
-	body {
-		background-color: helper.$black;
-	}
-
 	.landing-page {
 		display: flex;
 		justify-content: center;
-		flex-flow: column;
+		flex-flow: row;
 		width: 100%;
 		height: 100vh;
-		align-items: flex-start;
-		@media screen and (max-width: helper.$break-small) {
-			padding: 0 10px;
-		}
-		.logo {
-			margin-bottom: 20px;
-		}
-		.social-group {
-		display: flex;
-		justify-content: flex-end;
-		gap: 16px;
-			.social-icons {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				width: 50px;
-				height: 50px;
-				text-decoration: none;
-				color: helper.$white;
-				font-size: 30px;
-				&--black {
-					color: helper.$black !important;
+		align-items: center;
+		&__left, &__right {
+			width: 50%;
+			img {
+				width: 100%;
+				height: auto;
+				max-width: 600px;
+				display: block;
+				@media screen and (max-width: helper.$break-medium) {
+					width: 70%;
+					margin: 0 auto;
 				}
 			}
 		}
-	}
-
-	h1 {
-		@include helper.display-font-stack;
-		font-weight: helper.$font-weight--heading;
-		color: helper.$white;
-		margin-bottom: 0;
-		font-size: 4rem;
-		@media screen and (max-width: helper.$break-small) {
-			font-size: 2rem;
-		}
-	}
-
-	h2 {
-		@include helper.font-stack;
-		color: helper.$white;
-	}
-
-	p {
-		@include helper.font-stack;
-		color: helper.$white;
-		text-align: left;
-		max-width: 40%;
-		@media screen and (max-width: helper.$break-small) {
-			max-width: 100%;
+		@media screen and (max-width: helper.$break-medium) {
+			flex-flow: column-reverse;
+			&__left {
+				width: 100%;
+			}
+			&__right {
+				width: 100%;
+				margin: 1.5rem 0;
+			}
 		}
 	}
 </style>
