@@ -35,6 +35,7 @@
             height: 50px;
             text-decoration: none;
             color: helper.$black;
+            background-color: helper.$white;
             font-size: 30px;
             border: 1px solid helper.$black;
             border-radius: 8px;
