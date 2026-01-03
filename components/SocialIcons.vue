@@ -39,6 +39,7 @@
             font-size: 30px;
             border: 1px solid helper.$black;
             border-radius: 8px;
+            @include helper.transition;
             &:hover {
                 border: 2px solid helper.$black;
             }
