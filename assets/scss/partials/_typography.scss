@@ -5,7 +5,7 @@
 h1,
 .h1 {
     @include m.display-font-stack;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: v.$font-weight--default;
     color: v.$black;
     margin-top: 0;
@@ -39,6 +39,7 @@ h3,
 }
 
 p {
+    margin-bottom: 1em;
     @include m.font-stack;
     @include m.fontSize;
 }
