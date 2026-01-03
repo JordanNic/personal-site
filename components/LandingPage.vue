@@ -2,8 +2,9 @@
 	<main class="container">
 		<div class="landing-page">
 			<div class="landing-page__left">
-				<h1>Hello, I’m Jordan! UI/UX Designer</h1>
-				<p>I enjoy being able to make a real difference, helping everyone enjoy the experience of using a digital product.</p>
+				<h1>Hello, I’m Jordan! Senior UI/UX Designer</h1>
+				<p>As a designer, I enjoy being able to make a real difference, helping everyone enjoy the experience they have online.</p>
+				<p>I'm currently working on my website, but if you fancy having a chat, feel free to get in touch below.</p>
 				<SocialIcons />
 			</div>
 			<div class="landing-page__right">
