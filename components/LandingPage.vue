@@ -29,7 +29,7 @@
 			img {
 				width: 100%;
 				height: auto;
-				max-width: 600px;
+				max-width: 550px;
 				display: block;
 				@media screen and (max-width: helper.$break-medium) {
 					width: 70%;
