@@ -20,7 +20,7 @@
 @mixin fontSize {
     font-size: v.$font-size;
     @media screen and (max-width: v.$break-small) {
-        font-size: v.$font-size - 4px;
+        font-size: v.$font-size--small;
     }
 }
 
