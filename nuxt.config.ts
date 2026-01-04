@@ -1,10 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt/config'
+import { defineNuxtConfig } from 'nuxt/config';
+
 export default defineNuxtConfig({
 	modules: [
 		'@nuxt/content',
 		'@nuxtjs/mdc',
-		'@nuxt/image'
+		'@nuxt/image',
+		'nuxt-clarity-analytics'
 	],
 	devtools: { enabled: true },
 	content: {
@@ -38,4 +40,4 @@ export default defineNuxtConfig({
 	css: ['@/assets/scss/app.scss'],
 	builder: 'vite',
 	compatibilityDate: '2024-12-18',
-})
+});
