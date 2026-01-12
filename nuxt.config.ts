@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 	app: {
 		head: {
 			htmlAttrs: { lang: 'en' },
-			title: 'Jordan Nicholson - Product Designer',
+			title: 'Jordan Nicholson - Senior UI/UX Designer',
 			meta: [
 				// <meta name="viewport" content="width=device-width, initial-scale=1">
 				{
@@ -38,6 +38,17 @@ export default defineNuxtConfig({
 		},
 	},
 	css: ['@/assets/scss/app.scss'],
+	image: {
+		screens: {
+			'sm': 640,
+			'md': 768,
+			'lg': 1024,
+			'xl': 1280,
+			'2xl': 1536
+		},
+		quality: 80,
+		format: ['jpeg', 'jpg', 'png'],
+	},
 	builder: 'vite',
 	compatibilityDate: '2024-12-18',
 });
