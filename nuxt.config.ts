@@ -12,6 +12,14 @@ export default defineNuxtConfig({
 	content: {
 		documentDriven: true,
 	},
+	vite: {
+		optimizeDeps: {
+			include: [
+				'@vue/devtools-core',
+				'@vue/devtools-kit',
+			]
+		}
+	},
 	app: {
 		head: {
 			htmlAttrs: { lang: 'en' },
