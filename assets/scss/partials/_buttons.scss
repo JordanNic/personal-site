@@ -3,14 +3,15 @@
 button, .button {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 12px 24px;
     min-height: 50px;
+    @include helper.border-radius(8px);
     font-size: helper.$font-size;
     @include helper.display-font-stack;
     font-weight: helper.$font-weight--heading;
     text-decoration: none;
-    background-color: helper.$medium-grey;
-    color: helper.$black;
+    background-color: helper.$black;
+    color: helper.$off-white;
 }
