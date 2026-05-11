@@ -2,7 +2,7 @@
 title: 'This is a test'
 description: 'this is the description of the test'
 slug: test-post-2
-image: /img/placeholder-img.png
+image: https://placehold.net/600x400.png
 alt: Placeholder Image
 tag: UI/UX
 ---
