@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt/config';
+import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
 	modules: [
 		'@nuxt/content',
 		'@nuxtjs/mdc',
 		'@nuxt/image',
-		'nuxt-clarity-analytics'
+		'nuxt-clarity-analytics',
 	],
 	devtools: { enabled: true },
 	content: {
@@ -14,11 +14,8 @@ export default defineNuxtConfig({
 	},
 	vite: {
 		optimizeDeps: {
-			include: [
-				'@vue/devtools-core',
-				'@vue/devtools-kit',
-			]
-		}
+			include: ['@vue/devtools-core', '@vue/devtools-kit'],
+		},
 	},
 	app: {
 		head: {
@@ -48,15 +45,15 @@ export default defineNuxtConfig({
 	css: ['@/assets/scss/app.scss'],
 	image: {
 		screens: {
-			'sm': 640,
-			'md': 768,
-			'lg': 1024,
-			'xl': 1280,
-			'2xl': 1536
+			sm: 640,
+			md: 768,
+			lg: 1024,
+			xl: 1280,
+			'2xl': 1536,
 		},
 		quality: 80,
 		format: ['jpeg', 'jpg', 'png'],
 	},
 	builder: 'vite',
 	compatibilityDate: '2024-12-18',
-});
+})
