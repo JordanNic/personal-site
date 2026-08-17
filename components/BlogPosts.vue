@@ -7,7 +7,10 @@
 				class="post-card"
 			>
 				<div class="post-card__content">
-					<NuxtImg :src="`${article.image}`" :alt="`${article.alt}`" />
+					<NuxtImg
+						:src="`${article.image}`"
+						:alt="`${article.alt}`"
+					/>
 					<BlogTag>Something</BlogTag>
 					<h2 class="post-card__content--heading">
 						{{ article.title }}
@@ -27,7 +30,7 @@
 <script></script>
 
 <style lang="scss">
-	@use "/assets/scss/partials/helpers" as helper;
+	@use '/assets/scss/partials/helpers' as helper;
 
 	.post {
 		display: flex;
