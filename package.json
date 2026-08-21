@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@nuxt/devtools": "3.4.0",
-		"@nuxt/image": "^1.10.0",
+		"@nuxt/image": "^2.1.0",
 		"@types/node": "^18.15.9",
 		"@typescript-eslint/eslint-plugin": "^6.4.0",
 		"@typescript-eslint/parser": "^6.4.0",
