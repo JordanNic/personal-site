@@ -5,6 +5,7 @@ node_modules
 .nitro
 .cache
 .output
+.data
 
 # local env files
 .env
