@@ -10,7 +10,13 @@ export default defineNuxtConfig({
 	],
 	devtools: { enabled: true },
 	content: {
-		documentDriven: true,
+		build: {
+			markdown: {
+				toc: {
+					depth: 3, // include h3 headings
+				}
+			}
+		}
 	},
 	vite: {
 		optimizeDeps: {
