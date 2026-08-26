@@ -16,6 +16,12 @@ export default defineNuxtConfig({
 					depth: 3, // include h3 headings
 				}
 			}
+		},
+		renderer: {
+			anchorLinks: {
+				h2: false,
+				h3: false,
+			}
 		}
 	},
 	vite: {
