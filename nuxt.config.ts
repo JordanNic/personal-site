@@ -14,21 +14,22 @@ export default defineNuxtConfig({
 			markdown: {
 				toc: {
 					depth: 3, // include h3 headings
-				}
-			}
+				},
+			},
 		},
 		renderer: {
 			anchorLinks: {
 				h2: false,
 				h3: false,
-			}
-		}
+			},
+		},
 	},
 	vite: {
 		optimizeDeps: {
 			include: ['@vue/devtools-core', '@vue/devtools-kit'],
 		},
 	},
+	pages: false,
 	app: {
 		head: {
 			htmlAttrs: { lang: 'en' },
