@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"@nuxt/content": "^3.15.2",
-		"@nuxtjs/mdc": "^0.17.2",
+		"@nuxtjs/mdc": "^0.22.1",
 		"better-sqlite3": "^12.11.1"
 	},
 	"engines": {
