@@ -68,5 +68,8 @@ export default defineNuxtConfig({
 		format: ['jpeg', 'jpg', 'png'],
 	},
 	builder: 'vite',
+	devServer: {
+		host: 'localhost',
+	},
 	compatibilityDate: '2024-12-18',
 })
