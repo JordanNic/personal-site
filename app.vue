@@ -1,4 +1,5 @@
-<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
-	<LandingPage />
+	<NuxtLayout>
+		<NuxtPage />
+	</NuxtLayout>
 </template>
