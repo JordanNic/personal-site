@@ -1,5 +1,5 @@
 <template>
-	<ContentDoc path="/home" />
+	<slot />
 </template>
 
 <script></script>
