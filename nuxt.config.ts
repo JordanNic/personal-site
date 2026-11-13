@@ -29,7 +29,6 @@ export default defineNuxtConfig({
 			include: ['@vue/devtools-core', '@vue/devtools-kit'],
 		},
 	},
-	pages: false,
 	app: {
 		head: {
 			htmlAttrs: { lang: 'en' },
