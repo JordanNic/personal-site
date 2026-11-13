@@ -1,4 +1,5 @@
-@use "/assets/scss/partials/helpers" as helper;
+@use '/assets/scss/partials/helpers' as h;
+@use '/assets/scss/partials/mixins' as m;
 
 /* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
@@ -6,75 +7,77 @@
 /* Base Styling for App */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    background-color: helper.$off-white;
+	width: 100%;
+	height: 100%;
+	background-color: h.$off-white;
 }
 
 .container {
-    width: 100%;
-    max-width: 1250px;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 40px;
-    display: flex;
-    flex-flow: column;
-    border-left: 1px solid helper.$medium-grey;
-    border-right: 1px solid helper.$medium-grey;
-    @media only screen and (max-width: helper.$break-small) {
-        padding: 0 20px;
-    }
+	width: 100%;
+	max-width: 1250px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 32px;
+	display: flex;
+	flex-flow: column;
+	@media only screen and (max-width: h.$break-small) {
+		padding: 0 20px;
+	}
 }
 
 #float {
-    &--right {
-        float: right;
-    }
-    &--left {
-        float: left;
-    }
+	&--right {
+		float: right;
+	}
+	&--left {
+		float: left;
+	}
 }
 
 #text-align {
-    &--center {
-        text-align: center;
-    }
-    &--right {
-        text-align: right;
-    }
-    &--left {
-        text-align: left;
-    }
+	&--center {
+		text-align: center;
+	}
+	&--right {
+		text-align: right;
+	}
+	&--left {
+		text-align: left;
+	}
 }
 
 #strong {
-    font-weight: bold;
+	font-weight: bold;
+}
+
+.title-font {
+	@include m.display-font-stack;
 }
 
 .display {
-    &-desktop {
-        display: block;
-        @media screen and (max-width: helper.$break-small) {
-            display: none;
-        }
-    }
-    &-mobile {
-        display: none;
-        @media screen and (max-width: helper.$break-small) {
-            display: block;
-        }
-    }
+	&-desktop {
+		display: block;
+		@media screen and (max-width: h.$break-small) {
+			display: none;
+		}
+	}
+	&-mobile {
+		display: none;
+		@media screen and (max-width: h.$break-small) {
+			display: block;
+		}
+	}
 }
 
-@media only screen and (max-width: helper.$break-small) {
-    .hide {
-        display: none;
-        visibility: hidden;
-    }
+@media only screen and (max-width: h.$break-small) {
+	.hide {
+		display: none;
+		visibility: hidden;
+	}
 }
