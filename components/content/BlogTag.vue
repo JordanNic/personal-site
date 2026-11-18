@@ -12,17 +12,18 @@
 </script>
 
 <style lang="scss" scoped>
-	@use "/assets/scss/partials/helpers" as helper;
+	@use '/assets/scss/partials/helpers' as helper;
 
 	.blog-tag {
-		display: inline;
+		display: inline-block;
 		background: helper.$off-white;
 		padding: 4px 6px;
+		margin-bottom: 12px;
 		@include helper.border-radius(4px);
 		border: 1px solid helper.$medium-grey;
 		@include helper.font-stack;
 		font-weight: 700;
-		font-size: 12px;
+		font-size: 14px;
 		text-transform: uppercase;
 	}
 </style>
